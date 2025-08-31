@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - Parul University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://cdn.freelogovectors.net/wp-content/uploads/2022/03/parul-university-logo_freelogovectors.net_.png" alt="Parul University" class="logo">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="academics.html" class="nav-link">Academics</a></li>
+                <li><a href="faculty.html" class="nav-link">Faculty</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="dashboard.html" class="nav-link active">Student Portal</a></li>
+                <li><a href="admission.html" class="btn btn-primary nav-apply-btn">Apply Now</a></li>
+                <li><button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard Header -->
+    <section class="dashboard-header section-enter">
+        <div class="container">
+            <div class="dashboard-welcome" data-aos="fade-up">
+                <div class="student-profile">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFrIKytRI5VIg/profile-displayphoto-shrink_200_200/B4DZNdgW_JHUAY-/0/1732440585592?e=2147483647&v=beta&t=APhmAxhb-rRdqg1ZVkypZ1q4TK2-h5rW3fKb5-y3jec" alt="Student Profile" class="profile-image">
+                    <div class="profile-info">
+                        <h1>Welcome back, Nishiraj Singh Panwar!</h1>
+                        <p>B.Tech AIML (Artificial Intelligence & Machine Learning) • 2nd Year, 3rd Semester • GPA: 8.7</p>
+                    </div>
+                </div>
+                <div class="student-id">
+                    <p>Student ID</p>
+                    <span>2403031461035</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Content -->
+    <section class="dashboard-content section-enter">
+        <div class="container">
+            <div class="dashboard-grid">
+                <!-- Left Column -->
+                <div class="dashboard-main">
+                    <!-- Quick Stats -->
+                    <div class="dashboard-stats" data-aos="fade-up">
+                        <h2>Student Dashboard</h2>
+                        <div class="stats-cards">
+                            <div class="stat-card">
+                                <div class="stat-icon blue">
+                                    <i class="fas fa-book-open"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <div class="stat-number">6</div>
+                                    <div class="stat-label">Current Courses</div>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon green">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <div class="stat-number">8.7</div>
+                                    <div class="stat-label">GPA</div>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon indigo">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <div class="stat-number">89%</div>
+                                    <div class="stat-label">Attendance</div>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon yellow">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <div class="stat-number">2</div>
+                                    <div class="stat-label">Assignments Due</div>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon purple">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <div class="stat-number">1</div>
+                                    <div class="stat-label">Completed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Weekly Timetable -->
+                    <div class="dashboard-timetable" data-aos="fade-up">
+                        <h3><i class="fas fa-calendar"></i> Weekly Class Timetable</h3>
+                        <div class="timetable-container">
+                            <table class="timetable">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Mon</th>
+                                        <th>Tue</th>
+                                        <th>Wed</th>
+                                        <th>Thu</th>
+                                        <th>Fri</th>
+                                        <th>Sat</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="time-slot">07:30-08:25</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105204</div>
+                                            <div class="faculty-name">Mrs. SAKSHI</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105210</div>
+                                            <div class="faculty-name">SDS</div>
+                                        </td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105201</div>
+                                            <div class="faculty-name">Ms. KAJAL</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105211</div>
+                                            <div class="faculty-name">SDS</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105203</div>
+                                            <div class="faculty-name">Mrs. SAKSHI</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time-slot">08:25-09:20</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105203</div>
+                                            <div class="faculty-name">Mrs. SAKSHI</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105201</div>
+                                            <div class="faculty-name">Ms. KAJAL</div>
+                                        </td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105201</div>
+                                            <div class="faculty-name">Ms. KAJAL</div>
+                                        </td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105201</div>
+                                            <div class="faculty-name">Ms. KAJAL</div>
+                                        </td>
+                                    </tr>
+                                    <tr class="break-row">
+                                        <td class="time-slot">09:20-09:30</td>
+                                        <td colspan="6" class="break-slot">BREAK</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time-slot">09:30-10:25</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105210</div>
+                                            <div class="faculty-name">SDS</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105206</div>
+                                            <div class="faculty-name">Ms. AKRITI</div>
+                                        </td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105202</div>
+                                            <div class="faculty-name">Ms. KAJAL</div>
+                                        </td>
+                                        <td class="class-slot library">LIBRARY</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303191202</div>
+                                            <div class="faculty-name">SKP</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time-slot">10:25-11:20</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105203</div>
+                                            <div class="faculty-name">Mrs. SAKSHI</div>
+                                        </td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="class-slot library">LIBRARY</td>
+                                        <td class="empty-slot">—</td>
+                                    </tr>
+                                    <tr class="break-row">
+                                        <td class="time-slot">11:20-12:20</td>
+                                        <td colspan="6" class="break-slot">LUNCH BREAK</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time-slot">12:20-01:15</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303191202</div>
+                                            <div class="faculty-name">SKP</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303193203</div>
+                                            <div class="faculty-name">GGC</div>
+                                        </td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105210</div>
+                                            <div class="faculty-name">SDS</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105202</div>
+                                            <div class="faculty-name">Ms. KAJAL</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303191202</div>
+                                            <div class="faculty-name">SKP</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time-slot">01:15-02:10</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105205</div>
+                                            <div class="faculty-name">Ms. AKRITI</div>
+                                        </td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303193203</div>
+                                            <div class="faculty-name">GGC</div>
+                                        </td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303191202</div>
+                                            <div class="faculty-name">SKP</div>
+                                        </td>
+                                        <td class="empty-slot">—</td>
+                                        <td class="class-slot">
+                                            <div class="course-code">303105205</div>
+                                            <div class="faculty-name">Ms. AKRITI</div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Assignments -->
+                <div class="dashboard-card hover-lift" data-aos="fade-up" data-animation="slide-up">
+                    <h3><i class="fas fa-tasks"></i> Assignments</h3>
+                    <div class="assignments-list">
+                        <div class="assignment-item">
+                            <div class="assignment-info">
+                                <h4>Binary Tree Implementation in C++</h4>
+                                <p>303105201 - Due: 2024-01-25</p>
+                            </div>
+                            <span class="status status-pending">Pending</span>
+                        </div>
+                        <div class="assignment-item">
+                            <div class="assignment-info">
+                                <h4>Library Management System Database</h4>
+                                <p>303105203 - Due: 2024-01-30</p>
+                            </div>
+                            <span class="status status-submitted">Submitted</span>
+                        </div>
+                        <div class="assignment-item">
+                            <div class="assignment-info">
+                                <h4>Java OOP Project - Student Portal</h4>
+                                <p>303105205 - Due: 2024-01-22</p>
+                            </div>
+                            <span class="status status-overdue">Overdue</span>
+                        </div>
+                        <div class="assignment-item">
+                            <div class="assignment-info">
+                                <h4>Graph Theory Assignment</h4>
+                                <p>303191202 - Due: 2024-01-28</p>
+                            </div>
+                            <span class="status status-pending">Pending</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Attendance -->
+                <div class="dashboard-card hover-lift" data-aos="fade-up" data-animation="slide-up">
+                    <h3><i class="fas fa-chart-bar"></i> Attendance Overview</h3>
+                    <div class="attendance-summary">
+                        <div class="overall-attendance">
+                            <div class="attendance-circle">
+                                <span class="attendance-percentage">89%</span>
+                            </div>
+                            <p>Overall Attendance</p>
+                        </div>
+                        <div class="attendance-details">
+                            <div class="attendance-item">
+                                <span class="course">Data Structures</span>
+                                <span class="percentage">93.8%</span>
+                            </div>
+                            <div class="attendance-item">
+                                <span class="course">DBMS</span>
+                                <span class="percentage">87.5%</span>
+                            </div>
+                            <div class="attendance-item">
+                                <span class="course">Java OOP</span>
+                                <span class="percentage">86.7%</span>
+                            </div>
+                            <div class="attendance-item">
+                                <span class="course">Microprocessor</span>
+                                <span class="percentage">90.6%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="dashboard-sidebar">
+                <!-- Current Courses -->
+                <div class="dashboard-card courses-card hover-lift" data-aos="fade-up" data-animation="slide-up">
+                    <div class="courses-header">
+                        <h3><i class="fas fa-graduation-cap"></i> Current Courses</h3>
+                        <span class="semester-badge">Semester 3 • 2024-25</span>
+                    </div>
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <div class="course-header">
+                                <div class="course-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="course-grade-badge grade-a">A</div>
+                            </div>
+                            <div class="course-details">
+                                <h4>Data Structures</h4>
+                                <p class="course-code">303105201</p>
+                                <div class="course-meta">
+                                    <span><i class="fas fa-credit-card"></i> 4 Credits</span>
+                                    <span><i class="fas fa-user"></i> Ms. KAJAL</span>
+                                </div>
+                                <div class="course-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 85%"></div>
+                                    </div>
+                                    <span class="progress-text">85% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <div class="course-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="course-grade-badge grade-a-minus">A-</div>
+                            </div>
+                            <div class="course-details">
+                                <h4>Database Management</h4>
+                                <p class="course-code">303105203</p>
+                                <div class="course-meta">
+                                    <span><i class="fas fa-credit-card"></i> 4 Credits</span>
+                                    <span><i class="fas fa-user"></i> Mrs. SAKSHI</span>
+                                </div>
+                                <div class="course-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 78%"></div>
+                                    </div>
+                                    <span class="progress-text">78% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <div class="course-icon">
+                                    <i class="fab fa-java"></i>
+                                </div>
+                                <div class="course-grade-badge grade-b-plus">B+</div>
+                            </div>
+                            <div class="course-details">
+                                <h4>Java OOP</h4>
+                                <p class="course-code">303105205</p>
+                                <div class="course-meta">
+                                    <span><i class="fas fa-credit-card"></i> 4 Credits</span>
+                                    <span><i class="fas fa-user"></i> Ms. AKRITI</span>
+                                </div>
+                                <div class="course-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 72%"></div>
+                                    </div>
+                                    <span class="progress-text">72% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-summary">
+                        <div class="summary-item">
+                            <span class="summary-label">Total Credits</span>
+                            <span class="summary-value">21</span>
+                        </div>
+                        <div class="summary-item">
+                            <span class="summary-label">Average Grade</span>
+                            <span class="summary-value">A-</span>
+                        </div>
+                        <div class="summary-item">
+                            <span class="summary-label">Progress</span>
+                            <span class="summary-value">78%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Parul University</span>
+                    </div>
+                    <p>A leading private university in Gujarat, India, committed to excellence in education, research, and innovation.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="dashboard.html">Student Portal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Academics</h3>
+                    <ul>
+                        <li>Engineering & Technology</li>
+                        <li>Medicine & Health Sciences</li>
+                        <li>Management Studies</li>
+                        <li>Applied Sciences</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>P.O. Limda, Tal. Waghodia, Dist. Vadodara - 391760, Gujarat, India</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 2668 260277</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@paruluniversity.ac.in</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Parul University. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
