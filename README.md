@@ -12,39 +12,39 @@
 <table>
 <tr>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Nishiraj.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Nishiraj Singh Panwar</b><br/>
 <sub>👑 Team Leader</sub><br/>
 <sub>Roll: 47 • 2403031461035</sub>
 </td>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Vishal.png" width="100px" alt="Vishal Singh"/><br/>
 <b>Vishal Singh</b><br/>
 <sub>Co-Team Lead</sub><br/>
 <sub>Roll: 49 • 2403031460664</sub>
 </td>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
-<b>Chenna Kesava Reddy</b><br/>
-<sub>Developer</sub><br/>
-<sub>Roll: 69 • 2403031460091</sub>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Sathvik.png" width="100px" alt="Sathvik"/><br/>
+<b>Sathvik Kotha</b><br/>
+<sub>Communication Lead</sub><br/>
+<sub>Roll: 64 • 2403031460933</sub>
 </td>
 </tr>
 <tr>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Vijay.png" width="100px" alt="Vijay"/><br/>
 <b>Orupula Vijay</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 51 • 2403031461714</sub>
 </td>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Sanidhya.png" width="100px" alt="Sanidhya"/><br/>
 <b>Sanidhya Gupta</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 10 • 2403031460614</sub>
 </td>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Ram.png" width="100px" alt="Ram"/><br/>
 <b>B. Ram Bhupal Reddy</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 43 • 2403031461671</sub>
@@ -52,32 +52,32 @@
 </tr>
 <tr>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Ashutosh.png" width="100px" alt="Ashutosh"/><br/>
 <b>Ashutosh Chaurasia</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 54 • 2403031460630</sub>
 </td>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Samyak.png" width="100px" alt="Samyak"/><br/>
 <b>Samyak Moraskar</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 34 • 2403031461029</sub>
 </td>
 <td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Praveen.png" width="100px" alt="Praveen"/><br/>
 <b>Veeranki Praveen Sai</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 57 • 2403031461655</sub>
 </td>
 </tr>
-<tr>
-<td align="center">
-<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
-<b>Sathvik Kotha</b><br/>
-<sub>Communication Lead</sub><br/>
-<sub>Roll: 64 • 2403031460933</sub>
+  <tr>
+    <td align="center">
+<img src="https://raw.githubusercontent.com/nishirajsingh/Parul-University-Basic-Website/refs/heads/main/images/TeamMember/Kesava.png" width="100px" alt="Kesava"/><br/>
+<b>Chenna Kesava Reddy</b><br/>
+<sub>Developer</sub><br/>
+<sub>Roll: 69 • 2403031460091</sub>
 </td>
-</tr>
+  </tr>
 </table>
 
 ## 🌟 Features
