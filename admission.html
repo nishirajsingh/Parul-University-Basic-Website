@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form - Parul University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://cdn.freelogovectors.net/wp-content/uploads/2022/03/parul-university-logo_freelogovectors.net_.png" alt="Parul University" class="logo">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="academics.html" class="nav-link">Academics</a></li>
+                <li><a href="faculty.html" class="nav-link">Faculty</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="dashboard.html" class="nav-link">Student Portal</a></li>
+                <li><a href="admission.html" class="btn btn-primary nav-apply-btn">Apply Now</a></li>
+                <li><button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Admission Header -->
+    <section class="dashboard-header section-enter">
+        <div class="container">
+            <div class="dashboard-welcome" data-aos="fade-up">
+                <div class="admission-header-content">
+                    <h1>🎓 Apply to Parul University</h1>
+                    <p>Start your journey towards excellence. Join 30,000+ students in shaping the future.</p>
+                </div>
+                <div class="admission-badge">
+                    <div class="pulse-dot"></div>
+                    <span>Admissions Open 2025-26</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Form -->
+    <section class="dashboard-content section-enter">
+        <div class="container">
+            <div class="admission-form-container">
+                <div class="admission-form-card hover-lift" data-aos="fade-up">
+                    <h2><i class="fas fa-graduation-cap"></i> Admission Application Form</h2>
+                    <form id="admissionForm" class="admission-form">
+                        <!-- Personal Information -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-user"></i> Personal Information</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="dob">Date of Birth *</label>
+                                    <input type="date" id="dob" name="dob" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="gender">Gender *</label>
+                                    <select id="gender" name="gender" required>
+                                        <option value="">Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Academic Information -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-book"></i> Academic Information</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="program">Program of Interest *</label>
+                                    <select id="program" name="program" required>
+                                        <option value="">Select Program</option>
+                                        <option value="btech">B.Tech (Engineering)</option>
+                                        <option value="mbbs">MBBS (Medicine)</option>
+                                        <option value="bba">BBA (Business)</option>
+                                        <option value="bca">BCA (Computer Applications)</option>
+                                        <option value="mtech">M.Tech (Engineering)</option>
+                                        <option value="mba">MBA (Management)</option>
+                                        <option value="mca">MCA (Computer Applications)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="specialization">Specialization</label>
+                                    <select id="specialization" name="specialization">
+                                        <option value="">Select Specialization</option>
+                                        <option value="cse">Computer Science</option>
+                                        <option value="aiml">AI & Machine Learning</option>
+                                        <option value="civil">Civil Engineering</option>
+                                        <option value="mechanical">Mechanical Engineering</option>
+                                        <option value="electrical">Electrical Engineering</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="lastQualification">Last Qualification *</label>
+                                    <select id="lastQualification" name="lastQualification" required>
+                                        <option value="">Select Qualification</option>
+                                        <option value="12th">12th Standard</option>
+                                        <option value="diploma">Diploma</option>
+                                        <option value="graduation">Graduation</option>
+                                        <option value="postgraduation">Post Graduation</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="percentage">Percentage/CGPA *</label>
+                                    <input type="text" id="percentage" name="percentage" placeholder="e.g., 85% or 8.5 CGPA" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Address Information -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-map-marker-alt"></i> Address Information</h3>
+                            <div class="form-group">
+                                <label for="address">Complete Address *</label>
+                                <textarea id="address" name="address" rows="3" required></textarea>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="city">City *</label>
+                                    <input type="text" id="city" name="city" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="state">State *</label>
+                                    <input type="text" id="state" name="state" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pincode">Pin Code *</label>
+                                    <input type="text" id="pincode" name="pincode" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Additional Information -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-info-circle"></i> Additional Information</h3>
+                            <div class="form-group">
+                                <label for="motivation">Why do you want to join Parul University?</label>
+                                <textarea id="motivation" name="motivation" rows="4" placeholder="Tell us about your motivation and goals..."></textarea>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group checkbox-group">
+                                    <input type="checkbox" id="hostel" name="hostel">
+                                    <label for="hostel">I need hostel accommodation</label>
+                                </div>
+                                <div class="form-group checkbox-group">
+                                    <input type="checkbox" id="scholarship" name="scholarship">
+                                    <label for="scholarship">I want to apply for scholarship</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <i class="fas fa-paper-plane"></i>
+                                Submit Application
+                            </button>
+                            <p class="form-note">
+                                <i class="fas fa-info-circle"></i>
+                                By submitting this form, you agree to our terms and conditions. Our admission team will contact you within 24 hours.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Admission Info Sidebar -->
+                <div class="admission-info-sidebar">
+                    <div class="dashboard-card hover-lift" data-aos="fade-up" data-animation="slide-up">
+                        <h3><i class="fas fa-calendar"></i> Important Dates</h3>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span class="info-label">Application Deadline:</span>
+                                <span class="info-value">March 31, 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Entrance Exam:</span>
+                                <span class="info-value">April 15, 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Result Declaration:</span>
+                                <span class="info-value">May 1, 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Admission Starts:</span>
+                                <span class="info-value">June 1, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card hover-lift" data-aos="fade-up" data-animation="slide-up">
+                        <h3>₹ Fee Structure</h3>
+                        <div class="fee-list">
+                            <div class="fee-item">
+                                <span class="fee-program">B.Tech Engineering</span>
+                                <span class="fee-amount">₹1,50,000/year</span>
+                            </div>
+                            <div class="fee-item">
+                                <span class="fee-program">MBBS Medicine</span>
+                                <span class="fee-amount">₹8,50,000/year</span>
+                            </div>
+                            <div class="fee-item">
+                                <span class="fee-program">MBA Management</span>
+                                <span class="fee-amount">₹2,00,000/year</span>
+                            </div>
+                            <div class="fee-item">
+                                <span class="fee-program">BCA/MCA</span>
+                                <span class="fee-amount">₹80,000/year</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card hover-lift" data-aos="fade-up" data-animation="slide-up">
+                        <h3><i class="fas fa-question-circle"></i> Need Help?</h3>
+                        <div class="help-info">
+                            <p>Our admission counselors are here to help you!</p>
+                            <div class="contact-info">
+                                <div class="contact">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+91 2668 260277</span>
+                                </div>
+                                <div class="contact">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>admissions@paruluniversity.ac.in</span>
+                                </div>
+                                <div class="contact">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Mon-Sat: 9:00 AM - 6:00 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Parul University</span>
+                    </div>
+                    <p>A leading private university in Gujarat, India, committed to excellence in education, research, and innovation.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="dashboard.html">Student Portal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Academics</h3>
+                    <ul>
+                        <li>Engineering & Technology</li>
+                        <li>Medicine & Health Sciences</li>
+                        <li>Management Studies</li>
+                        <li>Applied Sciences</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>P.O. Limda, Tal. Waghodia, Dist. Vadodara - 391760, Gujarat, India</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 2668 260277</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@paruluniversity.ac.in</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Parul University. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

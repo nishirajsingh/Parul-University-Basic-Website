@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Parul University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://cdn.freelogovectors.net/wp-content/uploads/2022/03/parul-university-logo_freelogovectors.net_.png" alt="Parul University" class="logo">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="academics.html" class="nav-link">Academics</a></li>
+                <li><a href="faculty.html" class="nav-link">Faculty</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="dashboard.html" class="nav-link">Student Portal</a></li>
+                <li><a href="admission.html" class="btn btn-primary nav-apply-btn">Apply Now</a></li>
+                <li><button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Contact</span><br>
+                    <span>Us</span>
+                </h1>
+                <p class="hero-description">
+                    Get in touch with Parul University. We're here to help with your questions and provide the information you need.
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="https://www.paruluniversity.ac.in/app/images/post/blog/featured_image/214523LlxXiXoC2GSbDJ8ey3pjaZKO6SEbyd6DZQ%20(1).jpg" alt="Contact Us">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information & Form -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info" data-aos="fade-right">
+                    <h2>Get in Touch</h2>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Address</h3>
+                                <p>P.O. Limda, Tal. Waghodia<br>
+                                Dist. Vadodara - 391760<br>
+                                Gujarat, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>Main: +91 2668 260277<br>
+                                Admissions: +91 2668 260688<br>
+                                Student Services: +91 2668 260799</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>General: info@paruluniversity.ac.in<br>
+                                Admissions: admissions@paruluniversity.ac.in<br>
+                                Support: support@paruluniversity.ac.in</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Office Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                Saturday: 9:00 AM - 4:00 PM<br>
+                                Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Google Maps -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.944895777566!2d73.3634204!3d22.2886958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e1!3m2!1sen!2sin!4v1756407787578!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container" data-aos="fade-left">
+                    <div class="contact-form-card">
+                        <h2>Send us a Message</h2>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="admissions">Admissions Inquiry</option>
+                                    <option value="academics">Academic Programs</option>
+                                    <option value="financial-aid">Financial Aid</option>
+                                    <option value="student-services">Student Services</option>
+                                    <option value="general">General Information</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" required rows="6" placeholder="Enter your message here..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Cards -->
+    <section class="quick-contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Quick Contact</h2>
+                <p>Need immediate assistance? Contact the right department directly</p>
+            </div>
+
+            <div class="quick-contact-grid">
+                <div class="quick-contact-card hover-lift" data-aos="fade-up" data-animation="bounce">
+                    <div class="quick-contact-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Admissions Office</h3>
+                    <p>Questions about applications, requirements, and enrollment</p>
+                    <div class="quick-contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 2668 260688</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>admissions@paruluniversity.ac.in</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon-Fri: 8AM-6PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-contact-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quick-contact-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Student Services</h3>
+                    <p>Support for current students, academic advising, and resources</p>
+                    <div class="quick-contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 2668 260799</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>students@paruluniversity.ac.in</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon-Fri: 8AM-8PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quick-contact-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Financial Aid</h3>
+                    <p>Information about scholarships, grants, and financial assistance</p>
+                    <div class="quick-contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 2668 260800</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>finaid@paruluniversity.ac.in</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon-Fri: 9AM-5PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Parul University</span>
+                    </div>
+                    <p>A leading private university in Gujarat, India, committed to excellence in education, research, and innovation.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="dashboard.html">Student Portal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Academics</h3>
+                    <ul>
+                        <li>Engineering & Technology</li>
+                        <li>Medicine & Health Sciences</li>
+                        <li>Management Studies</li>
+                        <li>Applied Sciences</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>P.O. Limda, Tal. Waghodia, Dist. Vadodara - 391760, Gujarat, India</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 2668 260277</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@paruluniversity.ac.in</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Parul University. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
