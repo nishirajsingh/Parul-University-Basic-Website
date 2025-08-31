@@ -259,5 +259,6 @@ This project is developed for educational purposes as part of the B.Tech AIML cu
 
 **Parul University Website** - *Student Innovation in Web Development*
 
-*Developed with ❤️ by B.Tech AIML Students*#   P a r u l - U n i v e r s i t y - B a s i c - W e b s i t e  
+*Developed with ❤️ by B.Tech AIML Students*#   P a r u l - U n i v e r s i t y - B a s i c - W e b s i t e 
+ 
  
