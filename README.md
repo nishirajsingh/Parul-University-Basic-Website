@@ -18,11 +18,13 @@
 <sub>Roll: 47 • 2403031461035</sub>
 </td>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Vishal Singh</b><br/>
 <sub>Co-Team Lead</sub><br/>
 <sub>Roll: 49 • 2403031460664</sub>
 </td>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Chenna Kesava Reddy</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 69 • 2403031460091</sub>
@@ -30,16 +32,19 @@
 </tr>
 <tr>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Orupula Vijay</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 51 • 2403031461714</sub>
 </td>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Sanidhya Gupta</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 10 • 2403031460614</sub>
 </td>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>B. Ram Bhupal Reddy</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 43 • 2403031461671</sub>
@@ -47,16 +52,19 @@
 </tr>
 <tr>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Ashutosh Chaurasia</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 54 • 2403031460630</sub>
 </td>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Samyak Moraskar</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 34 • 2403031461029</sub>
 </td>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Veeranki Praveen Sai</b><br/>
 <sub>Developer</sub><br/>
 <sub>Roll: 57 • 2403031461655</sub>
@@ -64,6 +72,7 @@
 </tr>
 <tr>
 <td align="center">
+<img src="https://github.com/nishirajsingh.png" width="100px" alt="Nishiraj Singh Panwar"/><br/>
 <b>Sathvik Kotha</b><br/>
 <sub>Communication Lead</sub><br/>
 <sub>Roll: 64 • 2403031460933</sub>
